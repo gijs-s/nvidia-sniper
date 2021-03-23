@@ -1,5 +1,7 @@
 # nvidia-sniper [![discord](https://img.shields.io/discord/756303724095471617.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/rks69fD) [![donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/PhilippNormann)
 
+Meme project trying to get Sybren a new GPU.
+
 This bot helps us buy Nvidia Founders Edition GPUs as soon as they become available.
 
 ## Features
@@ -93,11 +95,11 @@ pipenv install
 
 <details>
   <summary>If you get `python : The term 'python' is not recognized` even after installing Python 3.8 </summary>
- 
+
   1. Open the Start menu and enter `PATH`, then press Enter
   2. Click the `Environment Vairables...` button
   3. In the `User variables for user` section, click the variable `Path`, then click the `Edit...` button
-  4. A new window called `Edit environment variable` will pop up, ensure `C:\Users\<username>\AppData\Local\Programs\Python\Python38\Scripts` and 
+  4. A new window called `Edit environment variable` will pop up, ensure `C:\Users\<username>\AppData\Local\Programs\Python\Python38\Scripts` and
   `C:\Users\<username>\AppData\Local\Programs\Python\Python38` exists in this list, where `<username>` is your username in Windows
   5. If these paths are not in the list, add them using the `New` button
   6. Remove all other PATHs which contain anything to do with Python, Pip, or Idle by clicking them, then clicking the `Delete` button
@@ -109,7 +111,7 @@ pipenv install
 
 ### CAPTCHA
 
-This bot is equipped with the ability to resolve simple reCAPTCHA on its own without the use of a third party reCAPTCHA solver.  As long as you follow the recommendation in the usage section below, it is extremely likely that the bot will succesfully complete the full auto-checkout process.  With that said, there is a very small possibility that you will be presented with a more advanced reCAPTCHA requiring solving image tasks that the bot cannot handle natively.  If you would like to have a backup in place for that possibility, you have that option by following the steps below.   
+This bot is equipped with the ability to resolve simple reCAPTCHA on its own without the use of a third party reCAPTCHA solver.  As long as you follow the recommendation in the usage section below, it is extremely likely that the bot will succesfully complete the full auto-checkout process.  With that said, there is a very small possibility that you will be presented with a more advanced reCAPTCHA requiring solving image tasks that the bot cannot handle natively.  If you would like to have a backup in place for that possibility, you have that option by following the steps below.
 
 1. Download the [ReCaptcha Solver](https://addons.mozilla.org/en-US/firefox/addon/recaptcha-solver) extension using the link https://addons.mozilla.org/firefox/downloads/file/3423472/recaptcha_solver-5.7-fx.xpi. If you open this link in Firefox, it will automatically attempt to add the extension to your browser. That's not what we want. Right click the link and select "Save link as" to download the *.xpi file or try opening the link in a browser other than Firefox.
 2. Put the *.xpi file inside the root of the `nvidia-sniper` directory.
